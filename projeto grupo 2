@@ -1,0 +1,39 @@
+let vetor = ['Gustavo Gardasz Mombach',
+             'Ingrid Franck Bittencourt Moreira',
+             'João Victor Cordeiro',
+             'Jordan Franck Bittencourt Moreira',
+             'Jose Henrique Milton Ganguini',
+             'Kevin Ribeiro De Paula',
+             'Luiza Raquel Michetti',
+             'Miguel Olavo Dalla Costa De Souza',
+             'Nathiely Thamires Chaves' 
+];
+
+let novoarray = vetor.splice(4,6);
+
+console.log (vetor);
+console.log (novoarray);
+
+vetor.pop = 'Nathiely Thamires Chaves' 
+
+novoarray.push ("WILLYAN GABRIEL FLORES DE MATOS");
+
+novoarray.unshift ("Samuel Krakhecke Dias");
+
+novoarray.shift ("Samuel Krakhecke Dias");
+
+novoarray.unshift("GABRIELLY Ferreira De Assis");
+
+
+novoarray.shift ("GABRIELLY Ferreira De Assis");
+
+novoarray.unshift ("NICOLAS VIEIRA DIAS RODRIGUES")
+
+novoarray.push ("GIOVANNA AMORIM BALLES")
+
+novoarray.unshift ("INGRID FRANCK BITTENCOURT MOREIRA")
+
+
+
+let vetor_novo = vetor.filter((_, index) => index % 2 !== 0);
+
